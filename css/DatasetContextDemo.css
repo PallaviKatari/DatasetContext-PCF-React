@@ -1,0 +1,41 @@
+
+.dataset-demo {
+  font-family: Arial, sans-serif;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 14px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.dataset-demo h3 {
+  margin-top: 0;
+}
+
+.dataset-demo .record-row {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  background: white;
+  color: #222222;
+  cursor: pointer;
+}
+
+.dataset-demo .record-row.selected {
+  border: 2px solid #2563eb;
+  background: #eff6ff;
+}
+
+.dataset-demo .record-id {
+  font-size: 11px;
+  color: #666666;
+  overflow-wrap: anywhere;
+}
+
+.dataset-demo .status {
+  overflow-wrap: anywhere;
+}
